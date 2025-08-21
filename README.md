@@ -5,7 +5,7 @@ charts** for MLB players' home runs across the 2018--2024 seasons. Built
 with Python, [pybaseball](https://github.com/jldbc/pybaseball), and
 [Plotly](https://plotly.com/python/).
 
-## 🚀 Features
+## Features
 
 -   Enter any MLB player and season (2018--2024) to analyze.\
 -   Fetches Statcast data automatically.\
@@ -20,7 +20,7 @@ with Python, [pybaseball](https://github.com/jldbc/pybaseball), and
     -   Pitch velocity\
     -   Pitch type
 
-## 📖 How to Use
+## How to Use
 
 1.  Open the notebook in [Google
     Colab](https://colab.research.google.com/) (or locally in Jupyter).\
@@ -29,18 +29,15 @@ with Python, [pybaseball](https://github.com/jldbc/pybaseball), and
 4.  Click **Run All**.\
 5.  Scroll down to watch the **spray chart animation**.
 
-💡 You can:\
+You can:\
 - Hit **Pause** to stop playback.\
 - Hit **Skip to End** to jump ahead.\
 - Click individual home runs on the slider to explore details.\
 - Hover over the **brightest dot** in the chart to see info on that
 specific home run.
 
-## 📊 Example Output
 
-(Insert a screenshot or GIF here showing a spray chart in action.)
-
-## 🛠️ Requirements
+## Requirements
 
 -   Python 3.8+\
 -   `pybaseball`\
@@ -53,24 +50,25 @@ Install dependencies:
 pip install pybaseball plotly numpy pandas
 ```
 
-## 📂 Repository Structure
+## Repository Structure
 
     .
     ├── Interactive_HR_Spray_Chart.ipynb   # Main notebook
     ├── mlb_vis_core.py                     # Core plotting + utility functions
     └── README.md                           # Project documentation
 
-## 🔗 Open in Colab
+## Open in Colab
 
 You can try it directly in Colab without cloning:
 
-[![Open in
-Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/%3CYOUR_USERNAME%3E/%3CYOUR_REPO%3E/blob/main/Interactive_HR_Spray_Chart.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trevordshepherd/Interactive-Home-Run-Spray-Chart---trevordshepherd/blob/main/Interactive_HR_Spray_Chart.ipynb)
 
-*(Replace `<YOUR_USERNAME>` and `<YOUR_REPO>` with your GitHub
-details.)*
+Here’s an example of what the interactive chart looks like:
 
-## ⚾ Credits
+![Example Output](Example_Output.png)
+
+
+## Credits
 - Project author: **Trevor Shepherd** ([@trevordshepherd](https://github.com/trevordshepherd))
 
 
